@@ -1,0 +1,19 @@
+<suite name="RegressionTestSuite" parallel="tests" thread-count="2">
+    <test name="RegressionTests-iOS-Safari">
+        <parameter name="profile" value="local.virtual.iphone15.json" />
+        <parameter name="port" value="4723" />
+          <parameter name="browser" value="safari" />
+        <packages>
+             <package name="com.saucedemo.browser.test" />
+        </packages>
+    </test>
+    <test name="RegressionTests-Android-Chrome">
+        <parameter name="profile" value="local.virtual.pixel8.json" />
+        <parameter name="port" value="4724" />
+          <parameter name="browser" value="chrome" />
+        <packages>
+            <package name="com.saucedemo.browser.test" />
+        </packages>
+    </test>
+   
+</suite>

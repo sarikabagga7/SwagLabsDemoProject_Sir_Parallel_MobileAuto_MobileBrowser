@@ -1,0 +1,7 @@
+<suite name="SanityTestSuite">
+    <test name="SanityTests1">
+        <packages>
+            <package name="com.saucedemo.apps.test" />
+        </packages>
+    </test>
+</suite>

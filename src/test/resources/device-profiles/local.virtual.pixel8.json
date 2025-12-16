@@ -1,0 +1,12 @@
+{
+  "platform": {
+    "name": "android",
+    "version": "36.0"
+  },
+  "device": {
+    "name": "Pixel_8",
+    "type": "emulator"
+  },
+  "automation_name": "UiAutomator2",
+  "no_reset": false
+}
