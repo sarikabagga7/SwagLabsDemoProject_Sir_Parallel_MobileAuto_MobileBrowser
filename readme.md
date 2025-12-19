@@ -1,4 +1,3 @@
-- Parallelization
-- Mobile Browser
+- NO Parallelization
 - iOS
 - Android
